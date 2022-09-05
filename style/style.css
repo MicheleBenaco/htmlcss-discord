@@ -4,21 +4,123 @@
     margin: 0px;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* contenitore nav */
+header{
+    background-color:rgb(49, 97, 224) ;
+}
 
 .conteiner-nav{
     display: flex;
-    background-color:rgb(49, 97, 224) ;
+ 
     border: 1px solid black;
     min-width: 1200px;
     justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+    padding: 30px;
+
+/* liste nav bar */
+}
+ul {
+    list-style: none; 
+}
+
+.lista-nav{
+    display: flex;    
 
 }
 
-li {
+li{
+    margin: 0 20px;
+    
+}
+
+a{
+    color: white;
     text-decoration: none;
 }
 
+a.accedi{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    color:rgb(41, 40, 65);
+}
+ /* sezione hero */
+.hero{
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+   
+}
 
+.flex-hero{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.text-hero{
+    max-width: 600px;
+    margin:0 auto;
+    text-align: center;
+    padding: 50px;
+    margin-top: 60px;
+
+}
+
+.titolo{
+    color: white;
+    padding: 30px;
+}
+
+.descrizione{
+    color: white;
+    margin-bottom: 40px;
+}
+
+.hero-button1{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    color:rgb(41, 40, 65) ;
+}
+.hero-button2{
+    padding: 10px;
+    border-radius: 20px;
+    background-color:rgb(41, 40, 65) ;
+   margin-left: 20px;
+}
+
+/* parte centrale */
+.flex-section{
+    display: flex;
+ 
+    border: 1px solid black;
+    min-width: 1200px;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+}
+.text-colum{
+    display: flex;
+    flex-direction: column;
+}
+
+.spiegazione1{
+ padding: 30px;
+}
 
 
 
