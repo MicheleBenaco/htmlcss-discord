@@ -107,7 +107,7 @@ a.accedi{
 .flex-section{
     display: flex;
  
-    border: 1px solid black;
+   
     min-width: 1200px;
     justify-content: center;
     width: 80%;
