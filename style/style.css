@@ -113,6 +113,11 @@ a.accedi{
     width: 80%;
     margin: 0px auto;
 }
+
+.grey{
+    background-color: rgb(243, 238, 238);
+}
+
 .text-colum{
     display: flex;
     flex-direction: column;
@@ -134,19 +139,33 @@ h2{
     color:rgb(41, 40, 65);
     font-size: 13px;
     font-weight: 600;
-        inline-size: 550px;
-        overflow-wrap: break-word;
+    inline-size: 550px;
+    overflow-wrap: break-word;
     
 }
+
+
+/* parte finale diversa dal resto */
+
+.section2{
+    min-width: 1200px;
+    margin: 0px auto;
+    background-color: rgb(243, 238, 238);
+    
+}
+
+
+
+
 
 .testo-diverso{
 
     
-    min-width: 1200px;
+     min-width: 1200px;
     margin: 0px auto;
     padding: 30px;
     text-align: center;
-    
+     
 }
 
 .paragrafo2{
@@ -161,7 +180,7 @@ h2{
 .immagine-diversa{
 
     margin: 0px auto;
-    /* min-width: 1200px; */
+    min-width: 1200px;
     text-align: center;
     height: 400px;
     width: 80%;
