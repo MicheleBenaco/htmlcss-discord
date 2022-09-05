@@ -109,19 +109,63 @@ a.accedi{
  
     border: 1px solid black;
     min-width: 1200px;
-    justify-content: space-between;
+    justify-content: center;
     width: 80%;
     margin: 0px auto;
 }
 .text-colum{
     display: flex;
     flex-direction: column;
+    align-items: stretch;
+    width: 50%;
+    
 }
 
-.spiegazione1{
- padding: 30px;
+h2{
+ padding: 180px;
+ margin-top: -150px;
+ font-size: 30px;
+ color:rgb(41, 40, 65);
 }
 
+.paragrafo1{
+    margin-top: -180px;
+    margin-left: 180px;
+    color:rgb(41, 40, 65);
+    font-size: 13px;
+    font-weight: 600;
+        inline-size: 550px;
+        overflow-wrap: break-word;
+    
+}
+
+.testo-diverso{
+
+    
+    min-width: 1200px;
+    margin: 0px auto;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+.paragrafo2{
+
+    min-width: 1200px;
+    margin: 0px auto;
+    
+    text-align: center;
+
+}
+
+.immagine-diversa{
+
+    margin: 0px auto;
+    /* min-width: 1200px; */
+    text-align: center;
+    height: 400px;
+    width: 80%;
+}
 
 
 
