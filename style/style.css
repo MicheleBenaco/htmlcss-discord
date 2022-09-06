@@ -237,7 +237,7 @@ h3{
 
 
 footer{
-    width:100% ;
+    width:2000px ;
     background-color: rgb(35, 39, 42);
     padding-top:50px ;
     margin-top: 200px ;
@@ -252,6 +252,9 @@ footer{
     margin: 0px auto;
     justify-content: start;
     flex-direction: row;
+    height: 600px;
+    border-bottom: 1px solid rgb(142, 161, 225) ;
+    
 
     
 
@@ -260,7 +263,7 @@ footer{
 
 
 .footer-big{
-    border: 1px solid white;
+   
     height: 400px;
     max-width: 500px;
     margin-right: 100px;
@@ -301,7 +304,7 @@ footer{
 
 
 .footer-small{
-    border: 1px solid white;
+   
     height: 200px;
     max-width: 200px;
     padding: 0px 50px;
@@ -313,14 +316,28 @@ footer{
 
 .first-il{
     color:rgb(114, 137, 218);
+    font-weight: 500;
 }
 
-li.footer-small{
+.second-il{
     color: white;
+    font-weight: 500;
 
 }
 
+/* ultima parte del progetto */
 
+.finale-blocco{
+    display: flex;
+    width: 80%;
+    min-width: 1200px;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 200px;
+    border: 1px solid white;
+
+
+}
 
 
 
