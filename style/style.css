@@ -72,7 +72,8 @@ a.accedi{
 }
 
 .text-hero{
-    max-width: 700px;
+    /* max-width: 1000px; */
+    min-width: 700px;
     margin:0 auto;
     text-align: center;
     padding: 50px;
