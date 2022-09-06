@@ -252,7 +252,7 @@ footer{
     margin: 0px auto;
     justify-content: start;
     flex-direction: row;
-    height: 600px;
+    height: 350px;
     border-bottom: 1px solid rgb(142, 161, 225) ;
     
 
@@ -334,7 +334,7 @@ footer{
     justify-content: space-between;
     margin-top: 50px;
     margin-left: 200px;
-    border: 1px solid white;
+    
 
 
 }
