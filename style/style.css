@@ -201,18 +201,124 @@ h2{
     height: 400px;
     width: 80%;
 }
-.scritta{
-    min-width: 1200px;
+.contenitore-scritta{
+    /* min-width: 1200px; */
+    max-width: 1200px;
     margin: 0px auto;
     padding: 30px;
     text-align: center;
+   max-height: 200px;
+} 
+.contenitore-scritta{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    position: relative;
+    
+}
+
+h3{
+    margin:0 auto;
+    text-align: center;
+    padding: 70px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.for-mac{
+
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color:rgb(142, 161, 225) ;
+    
+}
+
+/* fine della parte centrale inzio footer */
+
+
+footer{
+    width:100% ;
+    background-color: rgb(35, 39, 42);
+    padding-top:50px ;
+    margin-top: 200px ;
+    height: 1000px;
+
+}
+
+.flex-footer{
+    display: flex;
+    min-width: 1200px;
+    width: 80%;
+    margin: 0px auto;
+    justify-content: start;
+    flex-direction: row;
+
+    
+
+}
+
+
+
+.footer-big{
+    border: 1px solid white;
+    height: 400px;
+    max-width: 500px;
+    margin-right: 100px;
+    min-width: 300px;
+}
+
+.scritta-footer{
+    padding: 30px 50px ;
+    font-size: 20px;
+    color: rgb(114, 137, 218);
+}
+
+#img-footer{
+    width: 30px;
+    height: 25px;
+    margin-left:50px ;
+
+    
+}
+
+.social{
+    display: flex;
+    margin-top:10px;
+    margin-left: 50px; 
+    flex-direction: row;
+
+
+}
+
+.small-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 
 
 
 
 
+.footer-small{
+    border: 1px solid white;
+    height: 200px;
+    max-width: 200px;
+    padding: 0px 50px;
+    margin: 0 100px;
+    min-width: 50px;
 
+
+}
+
+.first-il{
+    color:rgb(114, 137, 218);
+}
+
+li.footer-small{
+    color: white;
+
+}
 
 
 
