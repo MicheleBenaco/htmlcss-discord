@@ -72,7 +72,7 @@ a.accedi{
 }
 
 .text-hero{
-    max-width: 600px;
+    max-width: 700px;
     margin:0 auto;
     text-align: center;
     padding: 50px;
@@ -82,12 +82,14 @@ a.accedi{
 
 .titolo{
     color: white;
-    padding: 30px;
+    padding: 0px;
+    font-size: 50px;
 }
 
 .descrizione{
     color: white;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+    font-weight: 400;
 }
 
 .hero-button1{
@@ -129,14 +131,15 @@ a.accedi{
 h2{
  padding: 180px;
  margin-top: -150px;
- font-size: 30px;
+ font-size: 60px;
  color:rgb(41, 40, 65);
 }
 
 .paragrafo1{
-    margin-top: -180px;
-    margin-left: 180px;
+    margin-top: -200px;
+    margin-left: 130px;
     color:rgb(41, 40, 65);
+    padding: 50px;
     font-size: 13px;
     font-weight: 600;
     inline-size: 550px;
