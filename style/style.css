@@ -72,7 +72,7 @@ a.accedi{
 }
 
 .text-hero{
-    /* max-width: 1000px; */
+    max-width: 1000px;
     min-width: 700px;
     margin:0 auto;
     text-align: center;
@@ -200,6 +200,12 @@ h2{
     text-align: center;
     height: 400px;
     width: 80%;
+}
+.scritta{
+    min-width: 1200px;
+    margin: 0px auto;
+    padding: 30px;
+    text-align: center;
 }
 
 
